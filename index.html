@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Decision Making Tool</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon-32x32.png">
+<link href="css/style.css" rel="stylesheet"></head>
+<body>
+<div class="app">
+    <h1 class="app__title">Decision-Making Tool</h1>
+
+    <div class="view">
+        <div class="container options-container">
+            <div class="option">
+                <label for="option-1">#1</label>
+                <input class="input option__input option__input_title" type="text" id="option-1" name="title" placeholder="Title">
+                <input class="input option__input option__input_weight" type="number" placeholder="Weight" name="weight">
+                <button class="button button_delete">Delete</button>
+            </div>
+            <div class="option">
+                <label for="option-2">#1</label>
+                <input class="input option__input option__input_title" type="text" id="option-2" name="title" placeholder="Title">
+                <input class="input option__input option__input_weight" type="number" placeholder="Weight" name="weight">
+                <button class="button button_delete">Delete</button>
+            </div>
+        </div>
+
+        <div class="container buttons-container">
+            <button class="button button_100">Add option</button>
+            <button class="button button_100">Paste list</button>
+            <button class="button button_100">Clear list</button>
+            <button class="button button_adaptive">Save list to file</button>
+            <button class="button button_adaptive">Load list from file</button>
+            <button class="button button_100">Start</button>
+        </div>
+    </div>
+
+
+</div>
+<script src="js/index.js"></script></body>
+</html>

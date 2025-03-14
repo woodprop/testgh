@@ -1,0 +1,127 @@
+/*!*************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/main.scss ***!
+  \*************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap);
+/*!*****************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/main.scss (1) ***!
+  \*****************************************************************************************************************/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Orbitron, sans-serif;
+  background: #9acd32;
+}
+
+.input,
+.button {
+  display: block;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-family: inherit;
+  font-weight: 700;
+  background: #d5ff82;
+}
+
+.input {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.input:focus {
+  border-width: 2px;
+  outline: none;
+}
+
+.container {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+}
+
+.options-container {
+  flex-direction: column;
+}
+
+.buttons-container {
+  flex-wrap: wrap;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 700px;
+}
+
+.app__title {
+  text-align: center;
+}
+
+.view {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+}
+
+.option {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.option label {
+  min-width: 40px;
+  text-align: center;
+}
+
+.option__input_title {
+  flex-grow: 1;
+}
+.option__input_weight {
+  width: 70px;
+}
+.option__input_weight::-webkit-outer-spin-button, .option__input_weight::-webkit-inner-spin-button {
+  display: none;
+}
+
+.button {
+  cursor: pointer;
+  box-shadow: 2px 2px 5px #769d27;
+}
+.button:hover {
+  background: #e6f9be;
+  box-shadow: 0 0 7px #769d27;
+}
+
+.button_delete:hover {
+  background: #f66;
+}
+
+.button_100 {
+  width: 100%;
+}
+
+.button_adaptive {
+  flex-grow: 1;
+}
+
+/*# sourceMappingURL=style.css.map*/
