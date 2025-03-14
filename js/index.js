@@ -53,6 +53,7 @@ class Router {
         ];
         this.container = container;
         const path = window.location.pathname;
+        console.log(path);
         window.addEventListener('popstate', () => {
             this.renderView(window.location.pathname);
         });
